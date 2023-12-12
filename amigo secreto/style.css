@@ -1,0 +1,203 @@
+@font-face{
+    font-family: "Urbanist";
+    src: url(Urbanist-Light.ttf);    
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+#title{
+    font-weight:100;
+    font-size:50px;
+}
+
+#gl{
+    font-family:"Urbanist";
+}
+
+.jumbotron{
+    background: url("banner-blur.jpg") no-repeat;
+    filter:brightness(70%);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top:20rem;
+    padding-bottom:22rem;
+    border-radius:0%;
+}
+
+.jumbtext{
+    text-align:left;
+    font-family: "Urbanist";
+    color:white;
+    text-shadow:black 3px 3px 2px;
+}
+
+#title{
+    filter:contrast(1);
+    filter:opacity(1);
+}
+
+
+#ofertas{
+    font-family:"Urbanist";
+    color:#36001B;
+    text-align:center;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.container-fluid{
+    margin-bottom:8rem;
+}
+
+.row{
+    margin:auto;
+}
+
+.col-md-3{
+    min-height:39rem;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.397) 1px 1px 5px;
+    margin:auto;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.items{
+    width:100%;
+    height:20rem;
+}
+
+.nomes{
+    text-align: center;
+    color:black;
+    font-family: "Urbanist";
+    font-size:20px;
+    margin-top:10px;
+}
+
+.hr{
+    /* border:0.01rem solid rgb(225, 225, 225); */
+    width:45%;
+    margin: auto;
+}
+
+.desc{
+    margin-top:10px;
+    font-family:"Urbanist";
+    font-size:20px;
+    padding:10px;
+}
+
+.desc-button{
+    margin-top:30%;
+}
+
+button{
+    width:100%;
+}
+
+.btn{
+    border:0.05cm solid #FFC9E3;
+    border-radius:0px;
+    color:rgb(23, 23, 23);
+    font-family:"Urbanist";
+    font-size:20px;
+}
+
+.btn:hover{
+    background-color:#FFC9E3;
+    color:white;
+}
+
+#segundo-titulo{
+    font-family:"Urbanist";
+    font-size:3rem;
+    color:#36001B;
+    text-align:center;
+}
+
+.col-md-12{
+    position: relative;
+    top:0;
+    left:0;
+    margin-bottom:20px;
+}
+
+.full_img{
+    position:relative;
+    top:0;
+    left:0;
+    max-width:100%;
+}
+
+.preto{
+    background-color:black;
+    opacity:0.8;
+    width:55%;
+    height:91%;
+    /* top:67px;
+    bottom:30px; */
+    top:8.4%;
+    bottom: 1.9%;
+    position:absolute;
+}
+
+.text{
+    padding:30px;
+    font-family:"Urbanist";
+    font-size:40px;
+    color:white;
+    opacity:0.6;
+}
+
+
+
+@media(max-width:992px){
+    .preto{
+        top:12%;
+        height:88%;
+    }
+
+    .text{
+        font-size:28px;
+    }
+}
+
+@media(max-width:767px){
+    .preto{
+        top:27%;
+        height:72%;
+    }
+    .text{
+        font-size:20px;
+    }
+}
+
+@media (max-width:600px){
+    .preto{
+        top:28%;
+        width:94%;
+        height:100%;
+    }
+    .text{
+        font-size:25px;
+    }
+    .full_img{
+        min-height: 100%;
+    }
+}
+
+@media (max-width:430px){
+    .preto{
+        top:32.2%;
+        width:93%;
+    }
+}
+
+@media (max-width:375px){
+    .preto{
+        top:36%;
+    }
+}
